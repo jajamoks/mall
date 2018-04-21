@@ -1,0 +1,31 @@
+{
+	"status": "1",
+	"msg": "",
+	"result": [
+		{
+			"productId": "100001",
+			"productName": "mi 1",
+			"productPrice": "1999",
+			"productImg": "1.jpg"
+		},
+		{
+			"productId": "100001",
+			"productName": "mi 2",
+			"productPrice": "1999",
+			"productImg": "2.jpg"
+		},
+		{
+			"productId": "100001",
+			"productName": "mi 3",
+			"productPrice": "1999",
+			"productImg": "3.jpg"
+		},
+		{
+			"productId": "100001",
+			"productName": "mi 4",
+			"productPrice": "1999",
+			"productImg": "4.jpg"
+		}
+	]
+
+}
