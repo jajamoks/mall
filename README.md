@@ -20,4 +20,7 @@ npm run build --report
 
 ## Demo
 
-[Click](https://mall.kwl.im/)
+[Click here](https://mall.kwl.im/)
+
+username: admin
+password: 123456
