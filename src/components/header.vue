@@ -21,11 +21,11 @@
                 <a href="javascript:void(0)" class="navbar-link" v-if="nickname" @click="logOut">Logout</a>              
               <div class="navbar-cart-container" >
                 <span class="navbar-cart-count"v-if="cartCount">{{cartCount}}</span>
-                  <a class="navbar-link navbar-cart-link" href="/cart">
+                  <router-link class="navbar-link navbar-cart-link" :to= "{name:'Cart'}">
                     <svg class="navbar-cart-logo">
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cart"></use>
                     </svg>
-                  </a>
+                  </router-link>
               </div>
 
             </div>
@@ -135,6 +135,7 @@
 </style>
 <script>
   import './../assets/css/login.css'
+  import Cart from "@/views/cart"
   import axios from 'axios'
   import {mapState} from 'vuex'
   export default {
