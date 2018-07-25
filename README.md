@@ -1,6 +1,15 @@
 # mall
 
-> A Vue.js project
+> A fucking simple and ugly online mall built with Vue.js, Node, MongoDB.
+
+Live demo at [http://mall.demo.kwl.im/](http://mall.demo.kwl.im/)
+
+Username: admin  
+Password: 123456
+
+![](./1.png)
+
+![](./2.png)
 
 ## Build Setup
 
@@ -18,9 +27,3 @@ npm run build
 npm run build --report
 ```
 
-## Demo
-
-Click [here](http://mall.demo.kwl.im) to watch the demo.
-
-Username: admin  
-Password: 123456
